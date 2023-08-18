@@ -2,14 +2,17 @@ import { cardList } from "./CardList";
 
 function AboutCarts() {
   return (
+
+
+
     <>
-      {cardList.map((card, id, hover, color) => (
+      {cardList.map((card, id, hover) => (
+       
         <div
           key={id}
-          className="flex flex-col cursor-pointer bg-white justify-center py-6 px-10 text-center items-center mt-12 rounded-tl-[35px] rounded-br-[35px] shadow-2xl min-h-[340px] w-full card-item-div md1000:min-h-[260px]"
+          className="flex flex-col  bg-white justify-center py-6 px-10 text-center items-center mt-12 rounded-tl-[35px] rounded-br-[35px] shadow-2xl min-h-[340px] w-full card-item-div md1000:min-h-[260px]"
           id={id}
-          hover="background-image: url('../src/images/who-we-are/workout2.jpg');"
-          color={color}
+          
           
         >
           <img src={card.img} alt="box_img" className=" w-[75px] mb-4" />
