@@ -56,7 +56,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`flex flex-row bg-transparent items-center justify-between  px-10  fixed top-0 left-0 right-0 w-full z-50 ${
+        className={` navbar flex flex-row bg-transparent items-center justify-between  px-10  fixed top-0 left-0 right-0 w-full z-50 ${
           sticky ? "shadow-xl !bg-black" : ""
         }`}
       >

@@ -767,6 +767,11 @@ body {
 @media (max-width: 1200px) {
   .navlist-nav {
     display: none;
+    
+  }
+
+  .navbar {
+    background: #000;
   }
 
   .fa-bars {
