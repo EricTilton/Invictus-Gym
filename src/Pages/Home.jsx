@@ -21,9 +21,9 @@ function Home() {
       <Trainers />
       <Testimonials />
       <Gallery />
-      <BmiCalc />
+      {/* <BmiCalc /> */}
       <Pricing />
-      <Blog />
+      {/* <Blog /> */}
       <CtaBanner />
       <Footer />
     </>

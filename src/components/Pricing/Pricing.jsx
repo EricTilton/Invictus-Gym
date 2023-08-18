@@ -1,8 +1,9 @@
 import TitleRed from "../../images/who-we-are/title-bg.svg";
 import BgText from "../../images/pricing/bg-text.png";
 import BgDumbell from "../../images/pricing/bg-dumbell.png";
-import PricingBox from "./PricingBox";
-
+import PricingBox1 from "./PricingBox1";
+import PricingBox2 from "./PricingBox2";
+import PricingBox3 from "./PricingBox3";
 import Img1 from "../../images/pricing/img1.jpg";
 import Img2 from "../../images/pricing/img2.jpg";
 import Img3 from "../../images/pricing/img3.jpg";
@@ -28,15 +29,15 @@ function Pricing() {
               Exclusive Pricing Plan
             </h2>
             <p className="text-[#646464] font-medium text-[15px] ">
-              Gymat an unknown printer took a galley of type and scrambled
-              <br /> make a type specimen book.
+            Invictus Gym's exclusive pricing plan offers unparalleled value, giving you access to top-notch facilities, a variety of classes, and personalized training at a rate that suits your budget.
+              <br /> Elevate your fitness experience without compromising on quality with our carefully crafted pricing options."
             </p>
           </div>
           {/* pricing boxes */}
           <div className="flex gap-10 mt-32 relative z-[2] md1000:flex-col md1000:items-center ">
-            <PricingBox img={Img1} price="39" />
-            <PricingBox img={Img2} price="65" />
-            <PricingBox img={Img3} price="100" />
+            <PricingBox1 img={Img1} price="39" />
+            <PricingBox2 img={Img2} price="65" />
+            <PricingBox3 img={Img3} price="100" />
           </div>
           <img
             src={BgDumbell}

@@ -75,20 +75,24 @@ function Tuesday() {
             <li className="p-[25px] bg-[#f2f2f2] w-full text-center">
               <p className="text-[14px] font-medium text-[#a0a0a0]">Time</p>
               <p className="text-[18px] text-black font-bold mt-3">
-                9:00am - 10:00am
+                9:00am - 10:30am
               </p>
             </li>
             {/* trainer */}
             <li className="p-[25px] bg-[#f2f2f2] w-full text-center">
               <p className="text-[14px] font-medium text-[#a0a0a0]">Trainer</p>
               <p className="text-[18px] text-black font-bold mt-3">
-                Mike Tyson
+                Andre Taylor
               </p>
             </li>
-            <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full text-right min800:text-center">
-              <button className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] mt-3 hover:bg-[#ff0336] ease-in duration-200 ">
+            <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full  min800:justify-center items-center flex justify-end">
+            <Link
+                onClick={() => window.top(0, 0)}
+                to="/contact"
+                className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] hover:bg-[#ff0336] ease-in duration-200  "
+              >
                 Join Now
-              </button>
+              </Link>
             </li>
           </ul>
           {/* row */}
@@ -104,18 +108,22 @@ function Tuesday() {
             <li className="p-[25px] bg-[#f2f2f2] w-full text-center">
               <p className="text-[14px] font-medium text-[#a0a0a0]">Time</p>
               <p className="text-[18px] text-black font-bold mt-3">
-                10:00pm - 11:00pm
+                2:00pm - 3:00pm
               </p>
             </li>
             {/* trainer */}
             <li className="p-[25px] bg-[#f2f2f2] w-full text-center">
               <p className="text-[14px] font-medium text-[#a0a0a0]">Trainer</p>
-              <p className="text-[18px] text-black font-bold mt-3">Mia Kha</p>
+              <p className="text-[18px] text-black font-bold mt-3">Ashley Carter</p>
             </li>
-            <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full text-right min800:text-center">
-              <button className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] mt-3 hover:bg-[#ff0336] ease-in duration-200 ">
+            <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full  min800:justify-center items-center flex justify-end">
+            <Link
+                onClick={() => window.top(0, 0)}
+                to="/contact"
+                className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] hover:bg-[#ff0336] ease-in duration-200  "
+              >
                 Join Now
-              </button>
+              </Link>
             </li>
           </ul>
           {/* row */}
@@ -138,13 +146,17 @@ function Tuesday() {
             <li className="p-[25px] bg-[#f2f2f2] w-full text-center">
               <p className="text-[14px] font-medium text-[#a0a0a0]">Trainer</p>
               <p className="text-[18px] text-black font-bold mt-3">
-                Cristofer Columbo
+                Christopher Lee
               </p>
             </li>
-            <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full text-right min800:text-center">
-              <button className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] mt-3 hover:bg-[#ff0336] ease-in duration-200 ">
+            <li className="py-[25px] px-[55px] bg-[#f2f2f2] w-full  min800:justify-center items-center flex justify-end">
+            <Link
+                onClick={() => window.top(0, 0)}
+                to="/contact"
+                className="text-white text-[15px] font-medium bg-[#555] py-[10px] px-[20px] rounded-[30px] hover:bg-[#ff0336] ease-in duration-200  "
+              >
                 Join Now
-              </button>
+              </Link>
             </li>
           </ul>
         </div>

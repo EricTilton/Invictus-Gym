@@ -93,15 +93,14 @@ body {
   height: 100%;
 }
 
-.card-item-div {
+/* .card-item-div {
   transition: all 0.2s;
-}
+} */
 
-.card-item-div:hover {
-  background-image: url('../src/images/who-we-are/info-card-bg.jpg');
+ /* .card-item-div:hover {
+  background-image: url('../src/images/who-we-are/workout2.jpg');
   color: white;
-}
-
+}  */
 
 
 .about-cta {
@@ -529,7 +528,7 @@ body {
   grid-row-end: 3;
   grid-column-end: 3;
 
-  background-image: url('../src/images/gallery/img1.jpg');
+  background-image: url('../src/images/GalleryPage/7.jpg');
   object-fit: cover;
   background-size: cover;
   /* background-position: 0 510px; */
@@ -545,7 +544,7 @@ body {
   grid-row-end: 2;
   grid-column-end: 5;
 
-  background-image: url('../src/images/gallery/img2.jpg');
+  background-image: url('../src/images/GalleryPage/6.jpg');
   object-fit: cover;
   background-size: cover;
   background-position: 0px -131px;
@@ -578,7 +577,7 @@ body {
   grid-row-end: 4;
   grid-column-end: 2;
 
-  background-image: url('../src/images/gallery/img3.jpg');
+  background-image: url('../src/images/GalleryPage/8.jpg');
   object-fit: cover;
   background-size: cover;
   /* background-position: 0 -13px; */
@@ -595,7 +594,7 @@ body {
   grid-row-end: 4;
   grid-column-end: 3;
 
-  background-image: url('../src/images/gallery/img4.jpg');
+  background-image: url('../src/images/GalleryPage/11.jpg');
   object-fit: cover;
   background-size: cover;
   /* background-position: 0 -81px; */
@@ -708,11 +707,11 @@ body {
 }
 
 .karate-bg {
-  background-image: url('../src/images/classes/karate.jpg');
+  background-image: url('../src/images/features/BJJ.jpg');
 }
 
-.powerlift-bg {
-  background-image: url('../src/images/classes/powerlifting.jpg');
+.personaltraining-bg {
+  background-image: url('../src/images/classes/personaltraining.jpg');
 }
 
 .workout-bg {
@@ -773,7 +772,98 @@ body {
   .fa-bars {
     display: flex;
   }
+
+  .login-banner {
+    background-image: url('../src/images/login/banner.jpg');
+    /* object-fit: cover; */
+    background-size: cover;
+    background-position:90%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45vh;
+  }
+
+  .about-goal-history{
+    visibility: hidden;
+    
+      display: none;
+  }
+  
+  
+
+  .hero-contents{
+    margin: auto;
+    width: 50%;
+   
+    padding: 10px;
+
+  }
+
+  .hero-quote{
+    visibility: hidden;
+    display: none;
+  }
+
+  .hero-quote-bg{
+    visibility: hidden;
+    display: none;
+  }
+  
 }
+
+
+
+
+@media screen and (max-width: 600px) {
+  /* .about-goal-history{
+    visibility: hidden;
+    
+      display: none;
+  } */
+  
+  /* .about-cta {
+    visibility: hidden;
+    margin: 100px auto 5px 20px;
+      display: none;
+  } */
+
+  .hero-quote{
+    visibility: hidden;
+    display: none;
+  }
+
+  .hero-quote-bg{
+    visibility: hidden;
+    display: none;
+  }
+
+  .info-span{
+    visibility: hidden;
+    display: none;
+  }
+
+  .login-banner {
+    background-image: url('../src/images/login/banner.jpg');
+    /* object-fit: cover; */
+    background-size: cover;
+    background-position:85%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45vh;
+  }
+
+  .testimonials-wrapper{
+    visibility: hidden;
+    display: none;
+  }
+
+  .footer-contents{
+    margin-top: 30%;
+
+  }
+}
+
+
 
 /* scrollbar ------------------------- */
 

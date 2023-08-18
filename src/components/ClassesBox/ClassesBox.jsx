@@ -17,9 +17,9 @@ function ClassesBox({ bgImg, title, trainer, date }) {
             <p>
               <i className="fa-regular fa-user"></i> {trainer}
             </p>
-            <p>
+            {/* <p>
               <i className="fa-regular fa-clock"></i> {date}
-            </p>
+            </p> */}
           </div>
 
           <MainButton

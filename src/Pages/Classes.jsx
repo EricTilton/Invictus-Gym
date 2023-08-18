@@ -34,32 +34,32 @@ function Classes() {
           <ClassesBox
             bgImg="cycling-bg"
             title="Cycling"
-            trainer="Dorian Yate"
-            date="Wed: 9:00 am"
+            trainer="Ashley Carter"
+            // date="Wed: 9:00 am"
           />
           <ClassesBox
             bgImg="meditaion-bg"
-            title="Meditation"
-            trainer="Maria Mich"
-            date="Fri: 1:00 pm"
+            title="Yoga"
+            trainer="Ashley Carter"
+            // date="Fri: 1:00 pm"
           />
           <ClassesBox
             bgImg="mma-bg"
             title="Boxing"
-            trainer="John Flex"
-            date="Tue: 4:00 pm"
+            trainer="Andre Taylor"
+            // date="Tue: 4:00 pm"
           />
           <ClassesBox
             bgImg="karate-bg"
-            title="Karate"
-            trainer="David Rich"
-            date="Sat: 9:00 am"
+            title="Jiu Jitsu"
+            trainer="Andre Taylor"
+            // date="Sat: 9:00 am"
           />
           <ClassesBox
-            bgImg="powerlift-bg"
+            bgImg="personaltraining-bg"
             title="Personal Training"
-            trainer="Larry Wheels"
-            date="Mon: 8:00 pm"
+            trainer="Christopher Lee, Dawn Yates, Michael Wong"
+            // date="Mon: 8:00 pm"
           />
           {/* <ClassesBox
             bgImg="workout-bg"
@@ -70,8 +70,8 @@ function Classes() {
           <ClassesBox
             bgImg="crossfit-bg"
             title="Crossfit"
-            trainer="Jenifer Alex"
-            date="Wen: 9:00 pm"
+            trainer="Christopher Lee"
+            // date="Wen: 9:00 pm"
           />
           {/* <ClassesBox
             bgImg="running-bg"
@@ -91,7 +91,7 @@ function Classes() {
             bgImg="cycling-bg"
             title="Cycling"
             trainer="Dorian Yate"
-            date="Wed: 9:00 am"
+            // date="Wed: 9:00 am"
           />
           <ClassesBox
             bgImg="meditaion-bg"
@@ -161,7 +161,7 @@ function Classes() {
           />
         </div>
 
-        <button
+        {/* <button
           className="text-[1.5rem] text-white bg-slate-600 px-14 py-6 font-medium uppercase shadow-2xl mb-14"
           onClick={() => {
             loadMore();
@@ -169,7 +169,7 @@ function Classes() {
           }}
         >
           {load ? "show more" : "show less"}
-        </button>
+        </button> */}
 
         <Footer />
       </section>

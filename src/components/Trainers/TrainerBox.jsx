@@ -17,9 +17,9 @@ function TrainerBox() {
   };
 
   const trainers = [
-    { img: Trainer1, name: "John Lewis", job: "Yoga Trainer" },
-    { img: Trainer2, name: "Jonathan Doe", job: "Crossfit Trainer" },
-    { img: Trainer3, name: "Ana June", job: "Personal Trainer" },
+    { img: Trainer1, name: "Andre Taylor", job: "Boxing & Jiu Jitsu Coach" },
+    { img: Trainer2, name: "Christopher Lee", job: "Crossfit Trainer" },
+    { img: Trainer3, name: "Ashley Carter", job: "Yoga & Cycling Instructor" },
   ];
 
   return (
@@ -53,22 +53,22 @@ function TrainerBox() {
             />
             {/* trainer description */}
             <div className="box-desc bg-white w-full text-center shadow-lg z-20 rounded-[6px] px-[20px] py-[30px] absolute -bottom-[31px]">
-              <img
+              {/* <img
                 alt="shape"
                 src={Shape}
                 className="absolute -top-[25px] left-[113px]"
-              />
-              <i className="fa-solid fa-angle-up absolute -top-[16px] left-[162px] text-3xl"></i>
+              /> */}
+              {/* <i className="fa-solid fa-angle-up absolute -top-[16px] left-[162px] text-3xl"></i> */}
               <h3 className="font-bold text-[2.4rem] ">{train.name}</h3>
               <p className="font-medium text-[1.5rem] text-[#646464]">
                 {train.job}
               </p>
-              <div className="flex gap-8 text-[#646464] w-full justify-center mt-5 text-[1.6rem]">
+              {/* <div className="flex gap-8 text-[#646464] w-full justify-center mt-5 text-[1.6rem]">
                 <i className="fa-brands fa-facebook-f"></i>
                 <i className="fa-brands fa-twitter"></i>
                 <i className="fa-brands fa-instagram"></i>
                 <i className="fa-regular fa-envelope"></i>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}

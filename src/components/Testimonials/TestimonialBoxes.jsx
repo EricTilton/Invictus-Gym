@@ -12,11 +12,9 @@ function TestimonialBoxes() {
         job="Starbucks Employee"
       /> */}
       <TestimonialBox
-        text=" “I've been a member of Gymate for the past 6 months and it has been an amazing experience. The trainers are knowledgeable and supportive, the
-                  equipment is top-notch, and the community of members is friendly and
-                  encouraging.”"
-        name="Harry Potter"
-        job="CEO of Hogwarts"
+        text=" “Invictus Gym has been a game-changer for me. The trainers are top-notch, creating personalized programs that delivered real results. The community feels like family, pushing me further than I thought possible.”"
+        name="Isabella Harris"
+        job="Invictus Gym Member"
       />
       {/* <TestimonialBox
         text=" “I've been a member of Gymate for the past 6 months and it has been an amazing experience. The trainers are knowledgeable and supportive, the

@@ -18,12 +18,12 @@ function ChooseUs() {
               alt="video_img"
               className="relative w-[94%] h-auto"
             />
-            <img
+            {/* <img
               src={PlayImg}
               alt="play_img"
               className="absolute w-[2.4rem] top-[42%] left-[44%] z-10 cursor-pointer min450:left-[47%] min450:top-[44%] "
-            />
-            <span className="bg-white cursor-pointer p-14 absolute rounded-full top-[38.7%] left-[39.9%]"></span>
+            /> */}
+            {/* <span className="bg-white cursor-pointer p-14 absolute rounded-full top-[38.7%] left-[39.9%]"></span> */}
           </div>
 
           <div className="relative w-[50%] md1000:flex md1000:flex-col md1000:items-center md1000:text-center md1000:w-[85%]">
@@ -36,10 +36,10 @@ function ChooseUs() {
               className="w-[22rem] absolute -top-[6px] -left-14 md1000:hidden "
             />
             <h2 className=" text-[3.6rem] text-white font-bold leading-[1.2] max-w-3xl md1000:max-w-[80%]">
-              We Can Give A Shape Of Your Body Here!
+            We're not just in the business of fitness; we're in the business of making your wildest fitness dreams a breathtaking reality!
             </h2>
             <p className="text-[16.5px] text-[#b4b4b4] mt-7 max-w-3xl md1000:max-w-[80%]">
-              At <b>Gymate</b>, we are dedicated to helping you achieve the body
+              At <b>Invictus</b>, we are dedicated to helping you achieve the body
               of your dreams. Our expert trainers and nutritionists will work
               with you to create a personalized fitness and nutrition plan that
               helps you reach your specific goals.
@@ -53,7 +53,7 @@ function ChooseUs() {
                   alt="icon"
                 />
                 <p className="text-white font-bold text-[18px] max-w-[150px]">
-                  Free Fitness Training
+                  Two Free Classes 
                 </p>
               </div>
 
@@ -64,7 +64,7 @@ function ChooseUs() {
                   alt="icon"
                 />
                 <p className="text-white font-bold text-[18px] max-w-[150px]">
-                  Modern Gym Equipments
+                  Modern Gym Equipment
                 </p>
               </div>
 
@@ -75,7 +75,7 @@ function ChooseUs() {
                   alt="icon"
                 />
                 <p className="text-white font-bold text-[18px] max-w-[150px]">
-                  Gym Bag Equipments
+                  Secure Lockers
                 </p>
               </div>
 
@@ -86,7 +86,7 @@ function ChooseUs() {
                   alt="icon"
                 />
                 <p className="text-white font-bold text-[18px] max-w-[150px]">
-                  Fresh Bottle Watter
+                  Fresh Water Bottles
                 </p>
               </div>
               <MainButton

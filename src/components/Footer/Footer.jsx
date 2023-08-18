@@ -4,7 +4,7 @@ function Footer() {
   return (
     <>
       <footer className="bg-white">
-        <div className="container page-padding py-[10rem]">
+        <div className="container page-padding py-[10rem] footer-contents">
           {/* footer div all */}
           <div className="flex justify-between min620:flex-col min620:items-center min620:text-center min620:gap-[5rem] !text-left">
             {/* logo side */}
@@ -12,11 +12,11 @@ function Footer() {
               <img src={FooterLogo} alt="footer_logo" className="w-[18rem]" />
               <p className="text-[15px] font-medium text-[#646464]">
                 Take your health and body to the next level with our
-                comprehensive program designed to help you reach your fitness
+                comprehensive programs designed to help you reach your fitness
                 goals.
               </p>
               {/* socials */}
-              <div className="flex gap-7 text-[18px] text-[#646464] min540:justify-center">
+              {/* <div className="flex gap-7 text-[18px] text-[#646464] min540:justify-center">
                 <i
                   style={{ transition: "all 0.3s" }}
                   className="fa-brands fa-facebook-f bg-[#efefef] p-4 rounded-full px-[14px] hover:bg-[#ff0366] hover:text-white"
@@ -33,16 +33,16 @@ function Footer() {
                   style={{ transition: "all 0.3s" }}
                   className="fa-brands fa-youtube bg-[#efefef] p-4 rounded-full hover:bg-[#ff0366] hover:text-white"
                 ></i>
-              </div>
+              </div> */}
               <p className="text-[16px] font-medium text-[#646464]">
-                Privacy Policy | © {new Date().getFullYear()} Gymate <br />{" "}
-                Design by{" "}
+                Privacy Policy | © {new Date().getFullYear()} Invictus Gym <br />{" "}
+                Designed by{" "}
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.radiustheme.com/"
+                  href="https://www.twwebdesigns.com/"
                 >
-                  RadiusTheme
+                  T&W Web Design 
                 </a>
               </p>
             </div>
@@ -51,43 +51,50 @@ function Footer() {
             <div className="flex flex-col gap-8 relative">
               <p className="text-[22px] font-bold footer-main">Our Classes</p>
 
-              <span className="top-[33px] absolute w-[7rem] h-[4px] bg-[#ff0366]"></span>
+              <span className="top-[33px] absolute w-[14rem] h-[4px] bg-[#ff0336]"></span>
 
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
-                Fitness Classes
+              <p className="text-[16px] hover:text-[#ff0336] cursor-pointer text-[#646464] font-medium hover:font-bold">
+                Personal Training
               </p>
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
-                Aerobics Classes
+              <p className="text-[16px] hover:text-[#ff0336] cursor-pointer text-[#646464] font-medium hover:font-bold">
+                Cycling
               </p>
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
-                Power Yoga
+              <p className="text-[16px] hover:text-[#ff0336] cursor-pointer text-[#646464] font-medium hover:font-bold">
+                Crossfit
               </p>
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
-                Learn Machines
+              <p className="text-[16px] hover:text-[#ff0336] cursor-pointer text-[#646464] font-medium hover:font-bold">
+                Yoga
               </p>
-              <p className="text-[16px] hover:text-[#ff0366] cursor-pointer text-[#646464] font-medium hover:font-bold">
-                Full-body Strength
+              <p className="text-[16px] hover:text-[#ff0336] cursor-pointer text-[#646464] font-medium hover:font-bold">
+                Jiu Jitsu
               </p>
+              <p className="text-[16px] hover:text-[#ff0336] cursor-pointer text-[#646464] font-medium hover:font-bold">
+                Boxing
+              </p>
+              
             </div>
 
             {/* right div */}
             <div className="flex flex-col gap-8 relative">
-              <p className="text-[22px] font-bold footer-main">Working Hours</p>
+              <p className="text-[22px] font-bold footer-main">Hours</p>
 
-              <span className="top-[33px] absolute w-[7rem] h-[4px] bg-[#ff0366]"></span>
+              <span className="top-[33px] absolute w-[7rem] h-[4px] bg-[#ff0336]"></span>
 
               <p className="text-[16px]  text-[#646464] font-bold">
                 Monday - Friday:
               </p>
               <p className="text-[16px] text-[#646464] font-medium">
-                7:00am - 21:00pm
+                7:00am - 10:00pm
               </p>
               <p className="text-[16px] text-[#646464] font-bold">Saturday:</p>
               <p className="text-[16px] text-[#646464] font-medium">
-                7:00am - 19:00pm
+                7:00am - 9:00pm
               </p>
               <p className="text-[16px] text-[#646464] font-bold ">
-                Sunday - Closed
+                Sunday
+              </p>
+              <p className="text-[16px] text-[#646464] font-medium">
+                7:00am - 6:00pm
               </p>
             </div>
 

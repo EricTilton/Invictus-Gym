@@ -14,15 +14,15 @@ function Featured() {
           {/* title */}
           <div className="flex flex-col text-center items-center relative ">
             <p className="font-semibold text-white text-[15px] relative uppercase z-10 ">
-              OUR FEATURED CLASS
+              OUR CLASSES
             </p>
             <img
               src={TitleRed}
               alt="text_bg"
-              className="w-[24rem] absolute -top-[10px]"
+              className="w-[26rem] absolute -top-[10px]"
             />
             <h2 className="text-[3.6rem] text-black font-bold my-10">
-              We Are Offering Best Flexible Classes
+              We Offer The Best Flexible Classes
             </h2>
           </div>
           {/* grid */}
@@ -94,12 +94,12 @@ function Featured() {
         <div className="container page-padding ">
           <div className="flex items-center md1000:flex-col md1000:gap-12  md1000:text-center">
             <h2 className="text-white font-bold text-[3.7rem] md1000:text-[3rem] max-w-6xl px-7 leading-[1.2] min450:text-[2.4rem] ">
-              We Are Always Providing Best Fitness Service For You
+              Always providing the best fitness services for you
             </h2>
             <MainButton
               color={`text-black`}
               bg={`bg-white`}
-              text="Join With Us"
+              text="Join Us"
               arrowColor={`text-black`}
               goTo="/contact"
             />

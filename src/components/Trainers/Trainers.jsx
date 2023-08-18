@@ -9,7 +9,7 @@ function Trainers() {
           {/* title div -- */}
           <div className="flex flex-col items-center text-center relative">
             <p className="text-white relative z-10 text-[16px] uppercase font-bold mb-10">
-              gym trainers
+              Staff
             </p>
             <img
               src={TitleRed}
@@ -18,11 +18,11 @@ function Trainers() {
             />
 
             <h2 className="text-[3.4rem] font-bold mb-4">
-              Team Of Expert Coaches
+              Our Team Of Expert Coaches
             </h2>
             <p className="text-[#646464] font-medium text-[15px] ">
-              Expert team of coaches helps you succeed in any goal,
-              <br /> personalized guidance and motivation provided!
+            Invictus Gym coaches are more than instructors; they're mentors committed to guiding you towards success.
+              <br />  With expertise spanning various disciplines, our coaches bring a wealth of knowledge and passion to each session, ensuring you receive personalized guidance on your fitness journey.
             </p>
           </div>
 

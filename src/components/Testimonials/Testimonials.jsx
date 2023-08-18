@@ -11,7 +11,7 @@ function Testimonials() {
   return (
     <>
       {/* testimonials div */}
-      <section className="my-[10rem] mx-auto">
+      <section className="testimonials-wrapper my-[10rem] mx-auto">
         <div className="container page-padding">
           {/* title */}
           <div className="text-center relative items-center w-full flex flex-col">
@@ -26,7 +26,7 @@ function Testimonials() {
           </div>
 
           {/* testimonials wrapper */}
-          <div className="border-[#efefef] mt-[17rem] md1000:mt-[9rem] bg-white border-solid border-[9px] p-[30px] min540:h-[48rem] min375:h-[60rem]">
+          <div className="border-[#efefef] mt-[17rem] md1000:mt-[9rem] bg-white border-solid border-[9px] p-[30px] min540:h-[48rem] min375:h-[60rem] ">
             <div className="bg-black overflow-x-clip w-full h-[33rem] relative">
               {/* img */}
               <img
@@ -42,7 +42,7 @@ function Testimonials() {
               </div>
 
               {/* buttons */}
-              <div className="flex gap-3 absolute bottom-[25px] right-[35px] z-20 min540:-bottom-[52px] min540:right-[17px]">
+              {/* <div className="flex gap-3 absolute bottom-[25px] right-[35px] z-20 min540:-bottom-[52px] min540:right-[17px]">
                 <button
                   title="left"
                   style={{ transition: "all 0.2s" }}
@@ -56,14 +56,14 @@ function Testimonials() {
                   className="py-5 px-7 bg-white text-black text-2xl hover:bg-[#FF0336] hover:text-white"
                 >
                   <i className="fa-solid fa-arrow-right"></i>
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
 
         {/* brand logos */}
-        <div
+        {/* <div
           className="flex gap-5 justify-center mt-32 border-b border-solid border-[#64646438] pb-28 flex-wrap
         "
         >
@@ -97,7 +97,7 @@ function Testimonials() {
             className=" scale-[.8] hover:invert"
             style={{ transition: "all 0.3s" }}
           />
-        </div>
+        </div> */}
       </section>
     </>
   );
