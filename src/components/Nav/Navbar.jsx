@@ -92,7 +92,7 @@ function Navbar() {
                   <a
                     onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    href="https://invictusgym.netlify.app/"
+                    href="/#home"
                   >
                     Home
                   </a>
@@ -101,7 +101,7 @@ function Navbar() {
                   <Link
                     onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    to="https://invictusgym.netlify.app/about"
+                    to="/about"
                   >
                     About
                   </Link>
@@ -110,7 +110,7 @@ function Navbar() {
                   <Link
                     onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    to="https://invictusgym.netlify.app/schedule/monday"
+                    to="/schedule/monday"
                   >
                     Schedule
                   </Link>
@@ -119,7 +119,7 @@ function Navbar() {
                   <Link
                     onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    to="https://invictusgym.netlify.app/gallery/page-1"
+                    to="/gallery/page-1"
                   >
                     Gallery
                   </Link>
@@ -137,7 +137,7 @@ function Navbar() {
                   <Link
                     onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    to="https://invictusgym.netlify.app/contact"
+                    to="/contact"
                   >
                     Contact
                   </Link>
@@ -146,7 +146,7 @@ function Navbar() {
                   <Link
                     onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    to="https://invictusgym.netlify.app/pricing"
+                    to="/pricing"
                   >
                     Pricing
                   </Link>
@@ -155,7 +155,7 @@ function Navbar() {
                   <Link
                     onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    to="https://invictusgym.netlify.app/classes"
+                    to="/classes"
                   >
                     Classes
                   </Link>
