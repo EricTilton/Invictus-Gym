@@ -783,14 +783,13 @@ body {
     height: 45vh;
   }
 
-  .about-goal-history{
+   .about-goal-history{
     visibility: hidden;
     
       display: none;
-  }
+  } 
   
   
-
   .hero-contents{
     margin: auto;
     width: 50%;
@@ -815,17 +814,17 @@ body {
 
 
 @media screen and (max-width: 600px) {
-  /* .about-goal-history{
+   /* .about-goal-history{
     visibility: hidden;
     
       display: none;
-  } */
+  }  */
   
-  /* .about-cta {
+   .about-cta {
     visibility: hidden;
     margin: 100px auto 5px 20px;
       display: none;
-  } */
+  } 
 
   .hero-quote{
     visibility: hidden;
@@ -861,6 +860,14 @@ body {
     margin-top: 30%;
 
   }
+}
+
+@media screen and (max-width: 300px) {
+  .footer-contents{
+    margin-top: 120%;
+
+  }
+
 }
 
 
