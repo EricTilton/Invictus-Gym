@@ -90,7 +90,7 @@ function Navbar() {
               <ul className="text-center flex flex-col gap-10 absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
                 <li onClick={hamburgerMenu}>
                   <a
-                    // onClick={() => window.top(0, 0)}
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
                     href="/#home"
                   >
@@ -98,28 +98,28 @@ function Navbar() {
                   </a>
                 </li>
                 <li onClick={hamburgerMenu}>
-                  <Link
-                    // onClick={() => window.top(0, 0)}
+                <a
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    GoTo="/#about"
+                    href="/#about"
                   >
                     About
-                  </Link>
+                  </a>
                 </li>
                 <li onClick={hamburgerMenu}>
                   <Link
-                    // onClick={() => window.top(0, 0)}
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    GoTo="/schedule/monday"
+                    to="/schedule/monday"
                   >
                     Schedule
                   </Link>
                 </li>
                 <li onClick={hamburgerMenu}>
                   <Link
-                    // onClick={() => window.top(0, 0)}
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    GoTo="/gallery/page-1"
+                    to="/gallery/page-1"
                   >
                     Gallery
                   </Link>
@@ -135,27 +135,27 @@ function Navbar() {
                 </li> */}
                 <li onClick={hamburgerMenu}>
                   <Link
-                    // onClick={() => window.top(0, 0)}
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    GoTo="/contact"
+                    to="/contact"
                   >
                     Contact
                   </Link>
                 </li>
                 <li onClick={hamburgerMenu}>
                   <Link
-                    // onClick={() => window.top(0, 0)}
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    GoTo="/pricing"
+                    to="/pricing"
                   >
                     Pricing
                   </Link>
                 </li>
                 <li onClick={hamburgerMenu}>
                   <Link
-                    // onClick={() => window.top(0, 0)}
+                    onClick={() => window.top(0, 0)}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    GoTo="/classes"
+                    to="/classes"
                   >
                     Classes
                   </Link>
