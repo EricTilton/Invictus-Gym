@@ -19,10 +19,10 @@ function About() {
             About Us
           </h1>
         </div>
-        <div className="container page-padding py-[5rem]">
+        <div className="bio container page-padding py-[5rem]">
           <div className="grid grid-cols-[1fr_1fr] h-[60rem] md1000:grid-cols-1">
             {/* title div -- */}
-            <div className="flex flex-col !text-left relative items-right justify-center md1000:items-center md1000:!text-center">
+            <div className=" flex flex-col !text-left relative items-right justify-center md1000:items-center md1000:!text-center">
               {/* <p className="text-white relative z-10 text-[15px] uppercase font-bold mb-8 ml-20 md1000:ml-3 ">
                 who we are
               </p> */}
@@ -35,7 +35,7 @@ function About() {
               <h2 className="text-[3.6rem] max-w-[53rem] font-bold mb-4">
                 Welcome to Invictus Gym Where Strength Meets Destiny!
               </h2>
-              <p className="text-[#646464] font-medium text-[15px] max-w-[50rem] ">
+              <p className=" text-[#646464] font-medium text-[15px] max-w-[50rem] ">
               Welcome to Invictus Gym, we're dedicated to guiding you on a transformative fitness journey that encompasses physical strength, mental resilience, and holistic well-being. Our name, "Invictus," signifies our commitment to helping you conquer your goals. Discover a diverse range of classes, from the invigorating rush of boxing and the personalized guidance of personal training, to the art of Brazilian Jiu Jitsu, rejuvenating yoga sessions, high-energy cycling classes, and the camaraderie of Crossfit. Our community supports growth, nurtures passion, and celebrates achievements. Whether you're unleashing your inner fighter, finding Zen through yoga, or embracing challenges in Crossfit, our classes cater to diverse interests and skill levels.
               </p>
               <MainButton

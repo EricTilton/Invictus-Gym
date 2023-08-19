@@ -825,11 +825,11 @@ body {
       display: none;
   }  */
   
-   /* .about-cta {
+    /* .about-cta {
     visibility: hidden;
     margin: 100px auto 5px 20px;
       display: none;
-  }  */
+  }   */
 
   .hero-quote{
     visibility: hidden;
@@ -851,6 +851,7 @@ body {
     /* object-fit: cover; */
     background-size: cover;
     background-position:85%;
+    padding-top: 500px;
     background-repeat: no-repeat;
     width: 100%;
     height: 45vh;
@@ -860,20 +861,14 @@ body {
     visibility: hidden;
     display: none;
   }
-
-  .footer-contents{
-    margin-top: 30%;
-
+  
+  .bio{
+    margin-bottom: 300px;
   }
+  
 }
 
-@media screen and (max-width: 300px) {
-  .footer-contents{
-    margin-top: 120%;
 
-  }
-
-}
 
 
 
