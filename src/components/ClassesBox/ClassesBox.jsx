@@ -15,7 +15,7 @@ function ClassesBox({ bgImg, title, trainer, date }) {
 
           <div className="flex gap-6 mb-14 mt-6 text-[#ffffffe1] text-[1.6rem] font-medium">
             <p>
-              <i className="fa-regular fa-user"></i> {trainer}
+              <i className="fa fa-regular fa-user"></i> {trainer}
             </p>
             {/* <p>
               <i className="fa-regular fa-clock"></i> {date}

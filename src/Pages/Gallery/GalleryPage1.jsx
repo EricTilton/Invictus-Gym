@@ -34,7 +34,7 @@ function GalleryPage1() {
           to="/gallery/page-2"
           className="text-black inline-flex items-center justify-center text-center text-[18px] border border-solid border-[#dee2e6] w-[48px] h-[45px] font-medium rounded-md bg-white "
         >
-          <i className="fa-solid fa-angles-right"></i>
+          <i className="fa fa-solid fa-angles-right"></i>
         </Link>
       </div>
     </>

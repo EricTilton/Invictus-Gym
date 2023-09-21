@@ -10,6 +10,7 @@ import SideImg4 from "../../images/sidebar/4.jpg";
 import SideImg5 from "../../images/sidebar/5.jpg";
 import SideImg6 from "../../images/sidebar/6.jpg";
 
+
 function Navbar() {
   const [spin, setSpin] = useState(false);
   const [sticky, setSticky] = useState(false);
@@ -83,7 +84,7 @@ function Navbar() {
             >
               <i
                 onClick={hamburgerMenu}
-                className="fa-solid fa-xmark text-[#ff0336] text-[3.3rem] cursor-pointer self-end"
+                className="fa fa-solid fa-xmark text-[#ff0336] text-[3.3rem] cursor-pointer self-end"
               ></i>
 
               {/* links */}
@@ -176,7 +177,7 @@ function Navbar() {
                   <img src={LogoSide} alt="logo_img" className="w-[13rem]" />
                   <i
                     onClick={sideBar}
-                    className="fa-solid fa-xmark text-[#ff0336] text-[3.3rem] cursor-pointer"
+                    className="fa fa-solid fa-xmark text-[#ff0336] text-[3.3rem] cursor-pointer"
                   ></i>
                 </div>
                 {/* about us */}
@@ -229,16 +230,16 @@ function Navbar() {
                 <div className="flex flex-col gap-6">
                   <h3 className="text-[2rem] font-bold">Contact Info</h3>
                   <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <i className="fa-solid fa-location-dot text-[#ff0336]"></i>
+                    <i className="fa fa-solid fa-location-dot text-[#ff0336]"></i>
                     &nbsp; 762 Meadow Lane
 Wichita, KS 
                   </p>
                   <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <i className="fa-solid fa-phone text-[#ff0336]"></i>&nbsp;
+                    <i className="fa fa-solid fa-phone text-[#ff0336]"></i>&nbsp;
                     +1 (316) 555-7890
                   </p>
                   <p className="text-[1.6rem] font-medium text-[#000000b1] hover:text-[#ff0336] cursor-pointer ease-in duration-200">
-                    <i className="fa-solid fa-envelope text-[#ff0336]"></i>
+                    <i className="fa fa-solid fa-envelope text-[#ff0336]"></i>
                     &nbsp; contact@invictusgym.com
                   </p>
                 </div>
@@ -263,7 +264,7 @@ Wichita, KS
             {/* hamburger */}
             <i
               onClick={hamburgerMenu}
-              className="fa-bars fa-solid hidden text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"
+              className="fa fa-bars fa-solid  text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"
             ></i>
             {/* account */}
             {/* <Link onClick={goTop} to="/signup" title="signup_button">
@@ -272,7 +273,7 @@ Wichita, KS
             {/* sidebar */}
             <i
               onClick={sideBar}
-              className="fa-regular fa-chart-bar text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"
+              className="fa fa-solid fa-chart-bar text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"
             ></i>
           </div>
           {/* spin box */}
@@ -285,7 +286,7 @@ Wichita, KS
               className="flex items-center "
             >
               <i
-                className={`fa-solid fa-plus bg-[#FF0336] text-white text-2xl py-3 px-4 rounded-md ${
+                className={`fa fa-solid fa-plus bg-[#FF0336] text-white text-2xl py-3 px-4 rounded-md ${
                   spin ? "nav-btn-hover" : ""
                 }`}
               ></i>

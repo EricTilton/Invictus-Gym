@@ -24,7 +24,7 @@ function BlogBox({ date, title, description }) {
           onClick={goTop}
           className="text-[15px] uppercase font-bold mt-10 w-[16rem] h-[5rem] bg-[#FF0336] text-white text-center pt-[14px]"
         >
-          Read more &nbsp; <i className="fa-solid fa-arrow-right"></i>
+          Read more &nbsp; <i className="fa fa-solid fa-arrow-right"></i>
         </Link>
       </div>
     </>
